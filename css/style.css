@@ -7,6 +7,7 @@ body{
     background: #B1E0E6;
     color: #555;
     font-family: "Poppins";
+   
 }
 
 .head nav ul li a{
@@ -88,6 +89,12 @@ header nav ul li a:hover{
     margin-top: -50px;
     margin-left: -100px;
 }
+.main .short-text h4{ 
+    margin-top: 10px;
+    white-space: wrap;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
 footer{
     position: fixed;
     bottom: 0;
@@ -116,6 +123,7 @@ section{
 }
 .section-title h3{
     position: absolute;
+    text-shadow:2px 4px 3px rgba(0,0,0,0.3);
     transform: translate(0, 45%);
     font-size: 2rem;
     margin-top: 20px;
@@ -142,12 +150,13 @@ section{
     display: flex;
     justify-content: center;
     margin: 50px auto;   
-    
 }
+
 #aboutme img{
     height: 400px;
     box-shadow: 10px 10px  blue;
     z-index: -1;
+ 
 }
 #aboutme .me-text{
     background: linear-gradient(#fff, #84dbef);
@@ -191,6 +200,8 @@ section{
     margin-right: 40px;
    position: relative;
 }
+
+
 .card-list:nth-child(3n){
     margin-right: 0;
 }
@@ -211,6 +222,14 @@ section{
 }
 .card-listImage:hover{
     transform: scale(1.1);
+}
+.card-list .card-listImage a{
+    background: transparent;
+    border:none;
+    box-shadow: none;
+}
+.card-list .card-listImage a:hover{
+    border:none;
 }
 .modal{
     display: none;

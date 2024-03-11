@@ -29,10 +29,16 @@
             <h4>som läser systemutveckling .NET på Campus i Varberg, <br />
                 och söker en LIA-plats under vintern 2024-2025!</h4>
         </div>
-        <img src="/image/ProfileImage.jpg" alt="">
+        <img src="/image/ProfileImage.jpg" alt="" class="me-image">
     </div>
     <footer>
         <p>&copy;Asuka Hanada 2024</p>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true, distance: "60px", duration: 2000 });
+        ScrollReveal().reveal('.short-text', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.me-image', { delay: 200, origin: "bottom" });
+    </script>
 </body>
 </html>
